@@ -31,7 +31,7 @@ app.post("/signUp" , async function(req,res)
     return; 
 })
 
-app.listen(3000 , function()
+app.listen(3001 , function()
 {
     console.log("Connected to port 8000");
 });

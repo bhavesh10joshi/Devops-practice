@@ -1,6 +1,11 @@
 {
   "name": "devops-turbo",
   "private": true,
+  "pnpm": {
+    "overrides": {
+      "@types/node": "^26.0.0"
+    }
+  },
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -11,7 +16,8 @@
   "devDependencies": {
     "prettier": "3.9.6",
     "turbo": "^2.11.7",
-    "typescript": "7.0.2"
+    "typescript": "7.0.2",
+    "@types/node": "^26.0.0"
   },
   "packageManager": "pnpm@11.25.0",
   "engines": {
